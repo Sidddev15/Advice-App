@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/your-repository-name/static/css/main.7e717e3d.css",
+    "main.js": "/your-repository-name/static/js/main.c97c51f5.js",
+    "index.html": "/your-repository-name/index.html",
+    "static/media/reportWebVitals": "/your-repository-name/static/media/reportWebVitals.31d6cfe0d16ae931b73c",
+    "main.7e717e3d.css.map": "/your-repository-name/static/css/main.7e717e3d.css.map",
+    "main.c97c51f5.js.map": "/your-repository-name/static/js/main.c97c51f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e717e3d.css",
+    "static/js/main.c97c51f5.js"
+  ]
+}
