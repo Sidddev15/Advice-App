@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Advice App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is a simple advice app built with React. It fetches random pieces of advice from the [Advice Slip JSON API](https://api.adviceslip.com/) and displays them to the user. Users can click a button to get a new piece of advice instantly. Additionally, the app keeps track of the number of advice pieces the user has read.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Random Advice Fetching**: Utilizes the `fetch` API to retrieve random advice from the Advice Slip API.
+- **State Management with useState**: Uses React's `useState` hook to manage the state of the advice displayed to the user.
+- **Asynchronous Data Fetching with useEffect**: Utilizes the `useEffect` hook to asynchronously fetch advice data when the component mounts.
+- **Dynamic Rendering**: Dynamically renders the advice on the UI based on the fetched data.
+- **User Interaction**: Provides a button for users to fetch new advice with a click.
+- **Advice Count Tracking**: Keeps track of the number of advice pieces the user has read and displays it to the user.
+- **Responsive Design**: The app is designed to be responsive and mobile-friendly.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository: `git clone https://github.com/yourusername/advice-app.git`
+2. Navigate to the project directory: `cd advice-app`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Once the development server is running, open your web browser and navigate to `http://localhost:3000`. You will see the advice app interface. Click the "Get Advice" button to fetch a random piece of advice. The advice count will increase with each piece of advice fetched.
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Fetch API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Credits
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Advice Slip JSON API: [https://api.adviceslip.com/](https://api.adviceslip.com/)
 
-### `npm run eject`
+## License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
